@@ -1,13 +1,16 @@
 import React from 'react';
+import '../../css/UserInput.css';
 
 const UserInput = (props) => {
     return (
-    <form>
-        <label>
-            Tu nombre:
-        <input type="text" onChange={props.changed}/>
-        </label>
-    </form>
+        <div className="d-flex flex-row">
+            <form>
+                <label>
+                    Tu nombre:
+                </label>
+                <input type="text" onChange={props.changed} />
+            </form>
+        </div>
     )
 }
 

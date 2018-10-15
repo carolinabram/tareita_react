@@ -1,0 +1,14 @@
+.card {
+  min-height: 500px;
+  transition: ease all 0.3s;
+}
+.card div.imgContainer {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.card .card-text {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=UserOutput.css.map */
