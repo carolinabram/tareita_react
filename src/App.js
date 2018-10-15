@@ -56,9 +56,9 @@ class App extends Component {
 
 
     return (
-      <div className= "App row-eq-height mt-4 border p-3 d-flex flex-column flex-lg-row flex-xl-row">
+      <div className= "App row-eq-height mt-4 border p-3 d-flex flex-column flex-lg-row flex-xl-row rounded">
         <div className="col-12 col-xl-4 col-lg-4 d-flex flex-column  align-items-center justify-content-center">
-            <h1>Hola {this.state.username.toUpperCase()} </h1>
+            <h1 className="d-block text-truncate w-100">Hola {this.state.username.toUpperCase()} </h1>
             <UserInput changed={(event) => this.usernameChangedHandler(event)} />
             <button className="btn btn-primary" onClick={this.toggleParagraphsHandler}>{this.state.textButton}</button>
           </div>
